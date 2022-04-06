@@ -1,0 +1,13 @@
+add sounds to cfg
+
+example:
+alias tlt_previouspage "echo you are at the first page.; play PATH_TO_SOUND/BAD_beep.wav"
+alias tlt_nextpage "echo current page: 2; exec tlt/tlt_page2; play PATH_TO_SOUND/OK_beep.wav"
+alias tlt_restore_binds "...; play PATH_TO_SOUND/menu_close_sound.wav" (when you close the blw menu by pressing 0 it makes a sound)
+
+and all the binds should play a sound like when you press a button in the blw menu. (USER OPTIONAL)
+
+alot of sounds stuff to do.
+
+ALSO OPTIMIZE CFG SCRIPT
+oh wait it's already optimized isn't it?
