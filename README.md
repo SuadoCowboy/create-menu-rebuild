@@ -1,2 +1,1 @@
-# create-menu-rebuild
-recreating my create menu program for tf2
+This is a rebuild of my create menu project that i did in the past for the Team Fortress 2 game
