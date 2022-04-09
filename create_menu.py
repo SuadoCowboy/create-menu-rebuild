@@ -132,10 +132,11 @@ bind 5 "{binds[4]}"
 bind 6 "{binds[5]}"
 bind 7 "{binds[6]}"''')
         with open(os.path.join(f'{cfg_dir}/{folder}', f'{prefix}_visual_menu{number}.cfg'), 'w+') as f:
-            f.write('echo [\"' + str(binds[0]) + '\"]\n')
-            f.write('echo [\"' + str(binds[1]) + '\"]\n')
-            f.write('echo [\"' + str(binds[2]) + '\"]\n')
-            f.write('echo [\"' + str(binds[3]) + '\"]\n')
-            f.write('echo [\"' + str(binds[4]) + '\"]\n')
-            f.write('echo [\"' + str(binds[5]) + '\"]\n')
-            f.write('echo [\"' + str(binds[6]) + '\"]')
+            f.write('echo')
+            f.write('echo \"' + str(binds[0]) + '\"\n')
+            f.write('echo \"' + str(binds[1]) + '\"\n')
+            f.write('echo \"' + str(binds[2]) + '\"\n')
+            f.write('echo \"' + str(binds[3]) + '\"\n')
+            f.write('echo \"' + str(binds[4]) + '\"\n')
+            f.write('echo \"' + str(binds[5]) + '\"\n')
+            f.write('echo \"' + str(binds[6]) + '\"')
